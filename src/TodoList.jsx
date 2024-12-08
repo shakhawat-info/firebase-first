@@ -37,11 +37,11 @@ const TodoList = () => {
 
   return (
     <div className="grid place-items-center h-[100vh] bg-[#1e272e]">
-      <div className="lg:py-5 py-2 lg:px-10 px-5 bg-[#A59D84] rounded-md ">
+      <div className="lg:py-5 py-2 lg:px-10 px-5 bg-[#A59D84] rounded-md w-[90%] lg:w-1/2">
         <h2 className="flex items-center font-bold gap-x-4 lg:text-[40px] text-[20px] text-[#1e272e] ">
           <span>To-Do List</span> <FaRegPenToSquare />
         </h2>
-        <div className="lg:w-[700px] w-fit flex mt-2 ">
+        <div className=" flex mt-2 ">
           <input
             type="text"
             className="p-2 text-[#636769] w-[90%] outline-none font-semibold lg:text-xl text-sm"
