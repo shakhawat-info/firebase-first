@@ -37,20 +37,20 @@ const TodoList = () => {
 
   return (
     <div className="grid place-items-center h-[100vh] bg-[#1e272e]">
-      <div className="py-5 px-10 bg-[#A59D84] rounded-md ">
-        <h2 className="flex items-center font-bold gap-x-4 text-[40px] text-[#1e272e] ">
+      <div className="lg:py-5 py-2 lg:px-10 px-5 bg-[#A59D84] rounded-md ">
+        <h2 className="flex items-center font-bold gap-x-4 lg:text-[40px] text-[20px] text-[#1e272e] ">
           <span>To-Do List</span> <FaRegPenToSquare />
         </h2>
-        <div className="w-[700px] flex mt-2 ">
+        <div className="lg:w-[700px] w-fit flex mt-2 ">
           <input
             type="text"
-            className="p-2 text-[#1e272e] w-[90%] outline-none font-semibold text-xl "
+            className="p-2 text-[#636769] w-[90%] outline-none font-semibold lg:text-xl text-sm"
             onChange={TaskInput}
           />
           <button
             onClick={TaskSubmit}
             type="button"
-            className="py-2 bg-[#fff] w-[10%] text-[#1e272e] text-[50px] text-center  "
+            className="py-2 bg-[#fff] w-[10%] text-[#1e272e] lg:text-[50px] text-[20px] text-center  "
           >
             <CiSquarePlus className="m-auto" />
           </button>
