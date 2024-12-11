@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      "numberFont": ["Ponnala", "system-ui"],
+      "ubuntu": ["Ubuntu", "sans-serif"]
+    }
   },
   plugins: [],
 }
